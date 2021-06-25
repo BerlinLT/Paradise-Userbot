@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Rzky3016/Paradise-Userbot",
-  "telegram": "https://t.me/Nopegoodloking",
-  "success_url": "https://t.me/Nopegoodloking",
+  "repository": "https://github.com/BerlinLT/Paradise-Userbot",
+  "telegram": "https://t.me/BerlinLT",
+  "success_url": "https://t.me/BerlinLT",
   "stack": "container",
   "env": {
     "API_KEY": {
