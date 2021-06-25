@@ -72,6 +72,18 @@ async def typewriter(typew):
     sleep(5)
     await typew.edit("**stick by my side even when the world is giving'in**")
 
+
+@register(outgoing=True, pattern='^.berlin(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**Hai gaes nama gua Berlin.**")
+    sleep(4)
+    await typew.edit("**Gua asal Jogja,tapi asli Brebes,**")
+    sleep(3)
+    await typew.edit("**umur gua baru 16,salam kenal yaa ajg**")
+
+
 CMD_HELP.update({
     "nyindir":
     "•🗿CMD🗿: `.tua`\
