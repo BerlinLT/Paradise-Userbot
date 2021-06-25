@@ -65,11 +65,11 @@ async def typewriter(typew):
     await typew.edit("**can I call you Baby**")
     sleep(3)
     await typew.edit("**Can you be my friend?**")
-    sleep(3)
+    sleep(4)
     await typew.edit("**can you be my lover up until the very end**")
-    sleep(3)
+    sleep(4)
     await typew.edit("**let me show you love,oh i don't pretend?**")
-    sleep(3)
+    sleep(5)
     await typew.edit("**stick by my side even when the world is giving'in**")
 
 CMD_HELP.update({
