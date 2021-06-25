@@ -57,6 +57,21 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
 
+
+@register(outgoing=True, pattern='^.nyanyi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**can I call you Baby**")
+    sleep(3)
+    await typew.edit("**Can you be my friend?**")
+    sleep(3)
+    await typew.edit("**can you be my lover up until the very end**")
+    sleep(3)
+    await typew.edit("**let me show you love,oh i don't pretend?**")
+    sleep(3)
+    await typew.edit("**stick by my side even when the world is giving'in**")
+
 CMD_HELP.update({
     "nyindir":
     "•🗿CMD🗿: `.tua`\
